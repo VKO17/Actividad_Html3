@@ -1,0 +1,84 @@
+
+/* Estilos para el formulario */
+form {
+    max-width: 500px; /* Ancho máximo del formulario */
+    margin: 0; /* Sin margen */
+    border: 0px solid #ccc; /* Borde de ancho 0px y color #ccc */
+    padding: 20px; /* Espacio interno de 20px */
+  }
+  
+  /* Estilos para el fieldset */
+
+  
+  /* Estilos para centrar el contenido del formulario */
+  .centerbody {
+    display: flex; /* Mostrar como un contenedor flex */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+  }
+  
+  /* Estilos para las etiquetas de los campos */
+  label {
+    display: inline-block; /* Mostrar como un elemento en línea */
+    width: 150px; /* Ancho fijo de 150px */
+    text-align: right; /* Alinear a la derecha */
+    margin-right: 10px; /* Margen derecho de 10px */
+  }
+  
+  /* Estilos para los campos de texto y select */
+  input[type="text"],
+  select {
+    width: 200px; /* Ancho fijo de 200px */
+    margin-bottom: 5px; /* Margen inferior de 10px */
+  }
+  
+  /* Estilos para la etiqueta de estado */
+  .estado-label {
+    font-size: 0.8em; /* Tamaño de fuente de 0.8em */
+    margin-left: 5px; /* Margen izquierdo de 5px */
+  }
+  
+  /* Estilos para el contenedor de botones */
+  .button-container {
+    margin-top: 40px; /* Margen superior de 40px */
+    margin-left: 20px; /* Margen izquierdo de 20px */
+    display: flex; /* Mostrar como un contenedor flex */
+    justify-content: space-between; /* Espacio uniforme entre los elementos */
+  }
+  
+  /* Estilos para el botón transparente */
+  .boton-transparente {
+    display: inline-block; /* Mostrar como un elemento en línea */
+    padding: 5px 10px; /* Relleno de 5px arriba y abajo, 10px a la izquierda y derecha */
+    font-size: 14px; /* Tamaño de fuente de 14px */
+    font-weight: bold; /* Negrita */
+    text-align: center; /* Alinear al centro */
+    text-decoration: none; /* Sin decoración de texto */
+    background-color: transparent; /* Fondo transparente */
+    color: #000000; /* Color de texto negro */
+    border: 2px solid #000000; /* Borde de 2px sólido de color negro */
+    border-radius: 4px; /* Bordes redondeados de 4px */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    box-shadow: 5px 5px rgba(0,0,0,0.5); /* Sombra de 5px x 5px con transparencia de 50% */
+  }
+  
+  /* Estilos para el botón transparente cuando el cursor pasa por encima */
+  .boton-transparente:hover {
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  .btn-shadow {
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+  }
+
+  .invalid-feedback{
+    padding-left: 169px; padding-block-start: 5px;
+  }
+  .valid-feedback{
+    padding-left: 169px; padding-block-start: 5px;
+  }
+
+  #success-msg {
+    margin-top: 10px;
+  }
